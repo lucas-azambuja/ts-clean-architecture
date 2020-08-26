@@ -8,9 +8,7 @@
   },
   "author": "Lucas Azambuja",
   "license": "ISC",
-  "dependencies": {
-    "git-commit-msg-linter": "^2.4.5"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/node": "^14.6.0",
     "@typescript-eslint/eslint-plugin": "^3.10.1",
@@ -20,6 +18,9 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
+    "git-commit-msg-linter": "^2.4.5",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.13",
     "typescript": "^4.0.2"
   }
 }
