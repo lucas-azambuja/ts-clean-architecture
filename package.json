@@ -5,17 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:staged": "jest"
+    "test:staged": "jest",
+    "check": "npm-check -s -u"
   },
   "author": "Lucas Azambuja",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^26.0.10",
-    "@types/node": "^14.6.0",
+    "@types/node": "^14.6.1",
     "@typescript-eslint/eslint-plugin": "^3.10.1",
     "eslint": "^7.7.0",
-    "eslint-config-standard-with-typescript": "^11.0.0",
+    "eslint-config-standard-with-typescript": "^18.0.2",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
@@ -24,7 +25,7 @@
     "husky": "^4.2.5",
     "jest": "^26.4.2",
     "lint-staged": "^10.2.13",
-    "ts-jest": "^26.2.0",
+    "ts-jest": "^26.3.0",
     "typescript": "^4.0.2"
   }
 }
